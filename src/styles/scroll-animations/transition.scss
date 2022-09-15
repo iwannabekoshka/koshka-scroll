@@ -1,0 +1,17 @@
+[koshka~="walking"] {
+  translate: -100% 0;
+
+  &[koshka~="walking-left"] {
+    translate: 100% 0;
+  }
+  &[koshka~="walking-top"] {
+    translate: 0 100%;
+  }
+  &[koshka~="walking-bottom"] {
+    translate: 0 -100%;
+  }
+
+  &[spotted] {
+    translate: 0 0;
+  }
+}

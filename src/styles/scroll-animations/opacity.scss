@@ -1,0 +1,7 @@
+[koshka~="hiding"] {
+  opacity: 0;
+
+  &[spotted] {
+    opacity: 1;
+  }
+}

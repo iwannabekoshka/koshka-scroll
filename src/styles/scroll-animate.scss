@@ -1,0 +1,21 @@
+@use "./scroll-animations/opacity.scss";
+@use "./scroll-animations/transition.scss";
+@use "./scroll-animations/rotate.scss";
+
+[koshka] {
+  transition: 500ms;
+}
+
+// Генерим аттрибуты вида koshka-velocity="200"
+@for $duration from 1 to 11 {
+  [koshka-velocity="#{$duration*100}"] {
+    transition: $duration * 100ms;
+  }
+}
+
+// Генерим аттрибуты вида koshka-waiting="200"
+@for $duration from 1 to 11 {
+  [koshka-waiting="#{$duration*100}"] {
+    transition-delay: $duration * 100ms;
+  }
+}

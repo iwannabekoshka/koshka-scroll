@@ -1,0 +1,7 @@
+[koshka~="spinning"] {
+  rotate: 180deg;
+
+  &[spotted] {
+    rotate: 0deg;
+  }
+}

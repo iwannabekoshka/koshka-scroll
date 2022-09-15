@@ -1,0 +1,15 @@
+.container {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.section {
+  display: grid;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.demo-text {
+  text-align: center;
+}
