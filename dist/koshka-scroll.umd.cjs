@@ -1,0 +1,1 @@
+(function(t){typeof define=="function"&&define.amd?define(t):t()})(function(){"use strict";const t="",s=document.querySelectorAll("[koshka]"),n=new IntersectionObserver(o=>{o.forEach(e=>{if(e.isIntersecting)e.target.setAttribute("spotted","");else{if(e.target.hasAttribute("koshka-chonky"))return;e.target.removeAttribute("spotted")}})});s.forEach(o=>n.observe(o))});
